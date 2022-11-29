@@ -1,0 +1,268 @@
+[2022-11-29T07:33:37.313+0000] {processor.py:154} INFO - Started process (PID=42) to work on /opt/airflow/dags/first_dag.py
+[2022-11-29T07:33:37.314+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-11-29T07:33:37.314+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:33:37.314+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:33:37.334+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:33:37.331+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_dag.py", line 35, in <module>
+    python_callable=_training_model
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 774, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 212, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'training_model_A' has already been added to the DAG
+[2022-11-29T07:33:37.334+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:33:37.353+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/first_dag.py took 0.043 seconds
+[2022-11-29T07:34:07.476+0000] {processor.py:154} INFO - Started process (PID=107) to work on /opt/airflow/dags/first_dag.py
+[2022-11-29T07:34:07.477+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-11-29T07:34:07.477+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:34:07.477+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:34:07.485+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:34:07.484+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_dag.py", line 35, in <module>
+    python_callable=_training_model
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 774, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 212, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'training_model_A' has already been added to the DAG
+[2022-11-29T07:34:07.485+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:34:07.501+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/first_dag.py took 0.026 seconds
+[2022-11-29T07:34:13.541+0000] {processor.py:154} INFO - Started process (PID=109) to work on /opt/airflow/dags/first_dag.py
+[2022-11-29T07:34:13.542+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-11-29T07:34:13.543+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:34:13.542+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:34:13.553+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:34:13.551+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_dag.py", line 39, in <module>
+    python_callable=_training_model
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 160, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 408, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 774, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/task_group.py", line 212, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'training_model_A' has already been added to the DAG
+[2022-11-29T07:34:13.553+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:34:13.570+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/first_dag.py took 0.031 seconds
+[2022-11-29T07:34:16.562+0000] {processor.py:154} INFO - Started process (PID=110) to work on /opt/airflow/dags/first_dag.py
+[2022-11-29T07:34:16.563+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-11-29T07:34:16.564+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:34:16.563+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:34:16.577+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:408 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-11-29T07:34:16.580+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:34:16.579+0000] {dagbag.py:439} ERROR - Failed to bag_dag: /opt/airflow/dags/first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 88, in validate
+    croniter(self._expression)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 166, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 778, in expand
+    return cls._expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 624, in _expand
+    raise CroniterBadCronError(cls.bad_length)
+croniter.croniter.CroniterBadCronError: Exactly 5 or 6 columns has to be specified for iterator expression.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 436, in _process_modules
+    dag.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 653, in validate
+    self.timetable.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 90, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: Exactly 5 or 6 columns has to be specified for iterator expression.
+[2022-11-29T07:34:16.580+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:34:16.596+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/first_dag.py took 0.037 seconds
+[2022-11-29T07:34:33.558+0000] {processor.py:154} INFO - Started process (PID=43) to work on /opt/airflow/dags/first_dag.py
+[2022-11-29T07:34:33.559+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-11-29T07:34:33.560+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:34:33.560+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:34:33.576+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:408 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-11-29T07:34:33.579+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:34:33.577+0000] {dagbag.py:439} ERROR - Failed to bag_dag: /opt/airflow/dags/first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 88, in validate
+    croniter(self._expression)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 166, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 778, in expand
+    return cls._expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 624, in _expand
+    raise CroniterBadCronError(cls.bad_length)
+croniter.croniter.CroniterBadCronError: Exactly 5 or 6 columns has to be specified for iterator expression.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 436, in _process_modules
+    dag.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 653, in validate
+    self.timetable.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 90, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: Exactly 5 or 6 columns has to be specified for iterator expression.
+[2022-11-29T07:34:33.579+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:34:33.596+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/first_dag.py took 0.040 seconds
+[2022-11-29T07:35:03.715+0000] {processor.py:154} INFO - Started process (PID=108) to work on /opt/airflow/dags/first_dag.py
+[2022-11-29T07:35:03.716+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-11-29T07:35:03.716+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:35:03.716+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:35:03.728+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:408 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-11-29T07:35:03.730+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:35:03.729+0000] {dagbag.py:439} ERROR - Failed to bag_dag: /opt/airflow/dags/first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 88, in validate
+    croniter(self._expression)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 166, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 778, in expand
+    return cls._expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 624, in _expand
+    raise CroniterBadCronError(cls.bad_length)
+croniter.croniter.CroniterBadCronError: Exactly 5 or 6 columns has to be specified for iterator expression.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 436, in _process_modules
+    dag.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 653, in validate
+    self.timetable.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 90, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: Exactly 5 or 6 columns has to be specified for iterator expression.
+[2022-11-29T07:35:03.731+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:35:03.746+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/first_dag.py took 0.033 seconds
+[2022-11-29T07:35:33.877+0000] {processor.py:154} INFO - Started process (PID=152) to work on /opt/airflow/dags/first_dag.py
+[2022-11-29T07:35:33.877+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-11-29T07:35:33.878+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:35:33.878+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:35:33.892+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:408 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-11-29T07:35:33.894+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:35:33.893+0000] {dagbag.py:439} ERROR - Failed to bag_dag: /opt/airflow/dags/first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 88, in validate
+    croniter(self._expression)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 166, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 778, in expand
+    return cls._expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 624, in _expand
+    raise CroniterBadCronError(cls.bad_length)
+croniter.croniter.CroniterBadCronError: Exactly 5 or 6 columns has to be specified for iterator expression.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 436, in _process_modules
+    dag.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 653, in validate
+    self.timetable.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 90, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: Exactly 5 or 6 columns has to be specified for iterator expression.
+[2022-11-29T07:35:33.894+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:35:33.911+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/first_dag.py took 0.037 seconds
+[2022-11-29T07:36:04.041+0000] {processor.py:154} INFO - Started process (PID=217) to work on /opt/airflow/dags/first_dag.py
+[2022-11-29T07:36:04.042+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-11-29T07:36:04.043+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:36:04.042+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:36:04.057+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:408 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-11-29T07:36:04.059+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:36:04.058+0000] {dagbag.py:439} ERROR - Failed to bag_dag: /opt/airflow/dags/first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 88, in validate
+    croniter(self._expression)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 166, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 778, in expand
+    return cls._expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 624, in _expand
+    raise CroniterBadCronError(cls.bad_length)
+croniter.croniter.CroniterBadCronError: Exactly 5 or 6 columns has to be specified for iterator expression.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 436, in _process_modules
+    dag.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 653, in validate
+    self.timetable.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 90, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: Exactly 5 or 6 columns has to be specified for iterator expression.
+[2022-11-29T07:36:04.060+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:36:04.076+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/first_dag.py took 0.037 seconds
+[2022-11-29T07:36:32.057+0000] {processor.py:154} INFO - Started process (PID=42) to work on /opt/airflow/dags/first_dag.py
+[2022-11-29T07:36:32.058+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-11-29T07:36:32.059+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:36:32.059+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:36:32.076+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:408 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-11-29T07:36:32.079+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:36:32.078+0000] {dagbag.py:439} ERROR - Failed to bag_dag: /opt/airflow/dags/first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 88, in validate
+    croniter(self._expression)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 166, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 778, in expand
+    return cls._expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 624, in _expand
+    raise CroniterBadCronError(cls.bad_length)
+croniter.croniter.CroniterBadCronError: Exactly 5 or 6 columns has to be specified for iterator expression.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 436, in _process_modules
+    dag.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 653, in validate
+    self.timetable.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 90, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: Exactly 5 or 6 columns has to be specified for iterator expression.
+[2022-11-29T07:36:32.079+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:36:32.098+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/first_dag.py took 0.043 seconds
+[2022-11-29T07:37:02.240+0000] {processor.py:154} INFO - Started process (PID=107) to work on /opt/airflow/dags/first_dag.py
+[2022-11-29T07:37:02.240+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/first_dag.py for tasks to queue
+[2022-11-29T07:37:02.241+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:37:02.241+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:37:02.254+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py:408 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2022-11-29T07:37:02.257+0000] {logging_mixin.py:137} INFO - [2022-11-29T07:37:02.255+0000] {dagbag.py:439} ERROR - Failed to bag_dag: /opt/airflow/dags/first_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 88, in validate
+    croniter(self._expression)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 166, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 778, in expand
+    return cls._expand(expr_format, hash_id=hash_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/croniter/croniter.py", line 624, in _expand
+    raise CroniterBadCronError(cls.bad_length)
+croniter.croniter.CroniterBadCronError: Exactly 5 or 6 columns has to be specified for iterator expression.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 436, in _process_modules
+    dag.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 653, in validate
+    self.timetable.validate()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/timetables/_cron.py", line 90, in validate
+    raise AirflowTimetableInvalid(str(e))
+airflow.exceptions.AirflowTimetableInvalid: Exactly 5 or 6 columns has to be specified for iterator expression.
+[2022-11-29T07:37:02.258+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/first_dag.py
+[2022-11-29T07:37:02.277+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/first_dag.py took 0.039 seconds

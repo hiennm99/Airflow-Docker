@@ -1,0 +1,83 @@
+[2022-11-29T06:30:49.678+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: s3_dag.extract manual__2022-11-29T06:30:48.398450+00:00 [queued]>
+[2022-11-29T06:30:49.684+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: s3_dag.extract manual__2022-11-29T06:30:48.398450+00:00 [queued]>
+[2022-11-29T06:30:49.685+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-29T06:30:49.685+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-11-29T06:30:49.685+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-29T06:30:49.698+0000] {taskinstance.py:1383} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2022-11-29 06:30:48.398450+00:00
+[2022-11-29T06:30:49.704+0000] {standard_task_runner.py:55} INFO - Started process 276 to run task
+[2022-11-29T06:30:49.706+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 's3_dag', 'extract', 'manual__2022-11-29T06:30:48.398450+00:00', '--job-id', '213', '--raw', '--subdir', 'DAGS_FOLDER/s3_dag.py', '--cfg-path', '/tmp/tmp2ngxnefa']
+[2022-11-29T06:30:49.707+0000] {standard_task_runner.py:83} INFO - Job 213: Subtask extract
+[2022-11-29T06:30:49.750+0000] {task_command.py:376} INFO - Running <TaskInstance: s3_dag.extract manual__2022-11-29T06:30:48.398450+00:00 [running]> on host 8425c2f5eb27
+[2022-11-29T06:30:49.807+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=s3_dag
+AIRFLOW_CTX_TASK_ID=extract
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-29T06:30:48.398450+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-29T06:30:48.398450+00:00
+[2022-11-29T06:30:49.809+0000] {python.py:177} INFO - Done. Returned value was:   Firstnames Lastnames
+0      James      Wick
+1    Corolla      Leto
+2       Mark     Smith
+3       Eddy     Etwan
+[2022-11-29T06:30:49.819+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/models/xcom.py:653: RemovedInAirflow3Warning: Method `serialize_value` in XCom backend S3XComBackend is using outdated signature andmust be updated to accept all params in `BaseXCom.set` except `session`. Support will be removed in a future release.
+  RemovedInAirflow3Warning,
+
+[2022-11-29T06:30:49.821+0000] {crypto.py:84} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-11-29T06:30:49.822+0000] {base.py:71} INFO - Using connection ID 'aws_default' for task execution.
+[2022-11-29T06:30:49.822+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/providers/amazon/aws/utils/connection_wrapper.py:8: DeprecationWarning: Use local credentials file is never documented and well tested. Obtain credentials by this way deprecated and will be removed in a future releases.
+  #
+
+[2022-11-29T06:30:49.823+0000] {connection_wrapper.py:317} INFO - AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from extra['s3_config_file']
+[2022-11-29T06:30:50.982+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/s3/transfer.py", line 288, in upload_file
+    future.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/futures.py", line 103, in result
+    return self._coordinator.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/futures.py", line 266, in result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/tasks.py", line 139, in __call__
+    return self._execute_main(kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/tasks.py", line 162, in _execute_main
+    return_value = self._main(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/upload.py", line 758, in _main
+    client.put_object(Bucket=bucket, Key=key, Body=body, **extra_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 515, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 934, in _make_api_call
+    raise error_class(parsed_response, operation_name)
+botocore.errorfactory.NoSuchBucket: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2385, in xcom_push
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 212, in set
+    map_index=map_index,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 655, in _shim
+    return old_serializer(**kwargs)
+  File "/opt/airflow/includes/s3_xcom_backend.py", line 25, in serialize_value
+    replace=True
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 64, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 92, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/s3.py", line 649, in load_file
+    client.upload_file(filename, bucket_name, key, ExtraArgs=extra_args, Config=self.transfer_config)
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/s3/inject.py", line 148, in upload_file
+    callback=Callback,
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/s3/transfer.py", line 296, in upload_file
+    filename, '/'.join([bucket, key]), e
+boto3.exceptions.S3UploadFailedError: Failed to upload data_94c1531c-091e-45d3-a558-10c7a4921c48.csv to marcl-***-xcoms/data_94c1531c-091e-45d3-a558-10c7a4921c48: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist
+[2022-11-29T06:30:50.990+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=s3_dag, task_id=extract, execution_date=20221129T063048, start_date=20221129T063049, end_date=20221129T063050
+[2022-11-29T06:30:51.001+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 213 for task extract (Failed to upload data_94c1531c-091e-45d3-a558-10c7a4921c48.csv to marcl-***-xcoms/data_94c1531c-091e-45d3-a558-10c7a4921c48: An error occurred (NoSuchBucket) when calling the PutObject operation: The specified bucket does not exist; 276)
+[2022-11-29T06:30:51.044+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-11-29T06:30:51.070+0000] {taskinstance.py:2623} INFO - 0 downstream tasks scheduled from follow-on schedule check

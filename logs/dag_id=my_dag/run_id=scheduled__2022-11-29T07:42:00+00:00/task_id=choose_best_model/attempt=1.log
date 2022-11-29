@@ -1,0 +1,28 @@
+[2022-11-29T07:43:01.488+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: my_dag.choose_best_model scheduled__2022-11-29T07:42:00+00:00 [queued]>
+[2022-11-29T07:43:01.496+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: my_dag.choose_best_model scheduled__2022-11-29T07:42:00+00:00 [queued]>
+[2022-11-29T07:43:01.497+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-29T07:43:01.497+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-11-29T07:43:01.497+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-29T07:43:01.512+0000] {taskinstance.py:1383} INFO - Executing <Task(BranchPythonOperator): choose_best_model> on 2022-11-29 07:42:00+00:00
+[2022-11-29T07:43:01.519+0000] {standard_task_runner.py:55} INFO - Started process 420 to run task
+[2022-11-29T07:43:01.521+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'my_dag', 'choose_best_model', 'scheduled__2022-11-29T07:42:00+00:00', '--job-id', '292', '--raw', '--subdir', 'DAGS_FOLDER/my_dag.py', '--cfg-path', '/tmp/tmpsxf2v_e9']
+[2022-11-29T07:43:01.522+0000] {standard_task_runner.py:83} INFO - Job 292: Subtask choose_best_model
+[2022-11-29T07:43:01.572+0000] {task_command.py:376} INFO - Running <TaskInstance: my_dag.choose_best_model scheduled__2022-11-29T07:42:00+00:00 [running]> on host d8a43e064f71
+[2022-11-29T07:43:01.679+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=my_dag
+AIRFLOW_CTX_TASK_ID=choose_best_model
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-29T07:42:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-29T07:42:00+00:00
+[2022-11-29T07:43:01.693+0000] {python.py:177} INFO - Done. Returned value was: accurate
+[2022-11-29T07:43:01.694+0000] {skipmixin.py:155} INFO - Following branch accurate
+[2022-11-29T07:43:01.694+0000] {skipmixin.py:190} INFO - Skipping tasks ['inaccurate']
+[2022-11-29T07:43:01.717+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/models/xcom.py:653: RemovedInAirflow3Warning: Method `serialize_value` in XCom backend S3XComBackend is using outdated signature andmust be updated to accept all params in `BaseXCom.set` except `session`. Support will be removed in a future release.
+  RemovedInAirflow3Warning,
+
+[2022-11-29T07:43:01.741+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=my_dag, task_id=choose_best_model, execution_date=20221129T074200, start_date=20221129T074301, end_date=20221129T074301
+[2022-11-29T07:43:01.773+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-11-29T07:43:01.795+0000] {taskinstance.py:2623} INFO - 1 downstream tasks scheduled from follow-on schedule check

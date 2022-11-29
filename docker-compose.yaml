@@ -61,8 +61,8 @@ x-airflow-common:
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
     AIRFLOW__CORE__ENABLE_XCOM_PICKLING: 'true'
     PYTHONPATH: /opt/airflow
-    AIRFLOW__CORE__XCOM__BACKEND: includes.s3_xcom_backend.S3XComBackend
-    AIRFLOW__CONN__AWS__DEFAULT: aws://?profile=airflow-xcoms&s3_config_file=/opt/airflow/creds/s3&s3_config_format=aws
+    AIRFLOW__CORE__XCOM_BACKEND: includes.s3_xcom_backend.S3XComBackend
+    AIRFLOW_CONN_AWS_DEFAULT: aws://?profile=airflow-xcoms&s3_config_file=/opt/airflow/creds/s3&s3_config_format=aws
 
 
   volumes:
