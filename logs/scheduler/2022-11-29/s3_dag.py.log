@@ -1,0 +1,280 @@
+[2022-11-29T04:44:17.110+0000] {processor.py:154} INFO - Started process (PID=42) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:44:17.110+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:44:17.111+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:44:17.110+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:44:17.965+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:44:17.983+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:44:18.044+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:44:18.044+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:44:18.063+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:44:18.063+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:44:18.083+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.976 seconds
+[2022-11-29T04:44:48.222+0000] {processor.py:154} INFO - Started process (PID=71) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:44:48.252+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:44:48.253+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:44:48.253+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:44:48.560+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:44:48.567+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:44:48.590+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:44:48.590+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:44:48.609+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:44:48.609+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:44:48.638+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.418 seconds
+[2022-11-29T04:45:18.766+0000] {processor.py:154} INFO - Started process (PID=100) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:45:18.767+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:45:18.768+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:45:18.768+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:45:19.069+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:45:19.075+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:45:19.099+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:45:19.099+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:45:19.118+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:45:19.118+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:45:19.132+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.368 seconds
+[2022-11-29T04:45:49.252+0000] {processor.py:154} INFO - Started process (PID=129) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:45:49.264+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:45:49.264+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:45:49.264+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:45:49.569+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:45:49.576+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:45:49.602+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:45:49.601+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:45:49.620+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:45:49.620+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:45:49.647+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.397 seconds
+[2022-11-29T04:46:19.777+0000] {processor.py:154} INFO - Started process (PID=150) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:46:19.778+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:46:19.779+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:46:19.778+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:46:20.075+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:46:20.082+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:46:20.106+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:46:20.105+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:46:20.124+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:46:20.124+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:46:20.138+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.364 seconds
+[2022-11-29T04:46:50.269+0000] {processor.py:154} INFO - Started process (PID=179) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:46:50.270+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:46:50.270+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:46:50.270+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:46:50.565+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:46:50.572+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:46:50.596+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:46:50.596+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:46:50.614+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:46:50.614+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:46:50.628+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.362 seconds
+[2022-11-29T04:47:20.753+0000] {processor.py:154} INFO - Started process (PID=208) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:47:20.753+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:47:20.754+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:47:20.754+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:47:21.036+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:47:21.044+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:47:21.067+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:47:21.067+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:47:21.085+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:47:21.085+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:47:21.100+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.349 seconds
+[2022-11-29T04:47:51.220+0000] {processor.py:154} INFO - Started process (PID=237) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:47:51.221+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:47:51.221+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:47:51.221+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:47:51.521+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:47:51.528+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:47:51.551+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:47:51.551+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:47:51.569+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:47:51.569+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:47:51.583+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.366 seconds
+[2022-11-29T04:48:21.714+0000] {processor.py:154} INFO - Started process (PID=257) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:48:21.715+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:48:21.715+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:48:21.715+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:48:21.999+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:48:22.006+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:48:22.031+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:48:22.031+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:48:22.051+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:48:22.051+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:48:22.065+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.353 seconds
+[2022-11-29T04:48:52.188+0000] {processor.py:154} INFO - Started process (PID=286) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:48:52.189+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:48:52.189+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:48:52.189+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:48:52.469+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:48:52.476+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:48:52.499+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:48:52.499+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:48:52.517+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:48:52.517+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:48:52.533+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.348 seconds
+[2022-11-29T04:49:22.654+0000] {processor.py:154} INFO - Started process (PID=315) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:49:22.655+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:49:22.656+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:49:22.656+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:49:22.954+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:49:22.960+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:49:22.985+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:49:22.985+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:49:23.003+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:49:23.003+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:49:23.018+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.366 seconds
+[2022-11-29T04:49:53.136+0000] {processor.py:154} INFO - Started process (PID=344) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:49:53.137+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:49:53.138+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:49:53.137+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:49:53.416+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:49:53.423+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:49:53.446+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:49:53.446+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:49:53.464+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:49:53.464+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:49:53.479+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.345 seconds
+[2022-11-29T04:50:23.610+0000] {processor.py:154} INFO - Started process (PID=364) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:50:23.611+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:50:23.612+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:50:23.612+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:50:23.909+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:50:23.916+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:50:23.940+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:50:23.939+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:50:23.958+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:50:23.958+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:50:23.974+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.366 seconds
+[2022-11-29T04:50:54.095+0000] {processor.py:154} INFO - Started process (PID=393) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:50:54.096+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:50:54.096+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:50:54.096+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:50:54.380+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:50:54.388+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:50:54.412+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:50:54.411+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:50:54.430+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:50:54.429+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:50:54.446+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.353 seconds
+[2022-11-29T04:51:24.565+0000] {processor.py:154} INFO - Started process (PID=423) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:51:24.566+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:51:24.567+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:51:24.567+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:51:24.868+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:51:24.875+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:51:24.899+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:51:24.899+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:51:24.920+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:51:24.920+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:51:24.935+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.372 seconds
+[2022-11-29T04:51:55.066+0000] {processor.py:154} INFO - Started process (PID=452) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:51:55.067+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:51:55.068+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:51:55.067+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:51:55.363+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:51:55.370+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:51:55.395+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:51:55.394+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:51:55.414+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:51:55.414+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:51:55.430+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.366 seconds
+[2022-11-29T04:52:25.561+0000] {processor.py:154} INFO - Started process (PID=472) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:52:25.562+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:52:25.562+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:52:25.562+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:52:25.847+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:52:25.854+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:52:25.878+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:52:25.878+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:52:25.897+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:52:25.897+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:52:25.912+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.353 seconds
+[2022-11-29T04:52:56.046+0000] {processor.py:154} INFO - Started process (PID=501) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:52:56.047+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:52:56.047+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:52:56.047+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:52:56.332+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:52:56.339+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:52:56.363+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:52:56.363+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:52:56.381+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:52:56.381+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:52:56.396+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.351 seconds
+[2022-11-29T04:53:26.517+0000] {processor.py:154} INFO - Started process (PID=530) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:53:26.518+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:53:26.518+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:53:26.518+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:53:26.808+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:53:26.814+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:53:26.838+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:53:26.837+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:53:26.862+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:53:26.862+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:53:26.878+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.363 seconds
+[2022-11-29T04:53:56.998+0000] {processor.py:154} INFO - Started process (PID=560) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:53:56.999+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:53:56.999+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:53:56.999+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:53:57.302+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:53:57.309+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:53:57.332+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:53:57.332+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:53:57.351+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:53:57.351+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:53:57.367+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.372 seconds
+[2022-11-29T04:54:27.501+0000] {processor.py:154} INFO - Started process (PID=580) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:54:27.502+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:54:27.502+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:54:27.502+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:54:27.868+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:54:27.880+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:54:27.919+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:54:27.918+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:54:27.954+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:54:27.954+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:54:27.982+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.483 seconds
+[2022-11-29T04:55:23.578+0000] {processor.py:154} INFO - Started process (PID=42) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:55:23.579+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:55:23.580+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:55:23.579+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:55:24.443+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:55:24.459+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:55:24.517+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:55:24.516+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:55:24.536+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:55:24.535+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:55:24.551+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.975 seconds
+[2022-11-29T04:55:54.680+0000] {processor.py:154} INFO - Started process (PID=71) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:55:54.680+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:55:54.681+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:55:54.681+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:55:54.990+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:55:54.998+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:55:55.021+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:55:55.021+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:55:55.041+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:55:55.041+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-28T00:00:00+00:00, run_after=2022-11-29T00:00:00+00:00
+[2022-11-29T04:55:55.085+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.407 seconds
+[2022-11-29T04:56:25.208+0000] {processor.py:154} INFO - Started process (PID=100) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:56:25.209+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:56:25.210+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:56:25.210+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:56:25.529+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:56:25.537+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:56:25.561+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:56:25.561+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:56:25.584+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:56:25.584+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:56:25.600+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.394 seconds
+[2022-11-29T04:56:55.731+0000] {processor.py:154} INFO - Started process (PID=129) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:56:55.732+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:56:55.732+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:56:55.732+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:56:56.027+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:56:56.034+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:56:56.057+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:56:56.056+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:56:56.075+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:56:56.075+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:56:56.089+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.360 seconds
+[2022-11-29T04:57:26.215+0000] {processor.py:154} INFO - Started process (PID=149) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:57:26.216+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:57:26.217+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:57:26.217+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:57:26.509+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:57:26.516+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:57:26.541+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:57:26.540+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:57:26.559+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:57:26.559+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:57:26.574+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.362 seconds
+[2022-11-29T04:57:56.697+0000] {processor.py:154} INFO - Started process (PID=178) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:57:56.697+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:57:56.698+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:57:56.698+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:57:56.995+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:57:57.002+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:57:57.026+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:57:57.026+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:57:57.045+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:57:57.045+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:57:57.060+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.365 seconds
+[2022-11-29T04:58:27.187+0000] {processor.py:154} INFO - Started process (PID=207) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:58:27.188+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:58:27.188+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:58:27.188+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:58:27.479+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:58:27.486+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:58:27.510+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:58:27.510+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:58:27.529+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:58:27.529+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:58:27.546+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.361 seconds
+[2022-11-29T04:58:57.668+0000] {processor.py:154} INFO - Started process (PID=236) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:58:57.669+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:58:57.669+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:58:57.669+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:58:57.976+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:58:57.983+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:58:58.008+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:58:58.007+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:58:58.030+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:58:58.030+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:58:58.044+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.378 seconds
+[2022-11-29T04:59:28.162+0000] {processor.py:154} INFO - Started process (PID=256) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:59:28.163+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:59:28.163+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:59:28.163+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:59:28.442+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:59:28.449+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:59:28.472+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:59:28.472+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:59:28.492+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:59:28.492+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:59:28.507+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.348 seconds
+[2022-11-29T04:59:58.629+0000] {processor.py:154} INFO - Started process (PID=285) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:59:58.652+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T04:59:58.652+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:59:58.652+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:59:58.953+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T04:59:58.960+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T04:59:58.983+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:59:58.983+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T04:59:59.003+0000] {logging_mixin.py:137} INFO - [2022-11-29T04:59:59.003+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T04:59:59.092+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.466 seconds
+[2022-11-29T05:00:29.217+0000] {processor.py:154} INFO - Started process (PID=314) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T05:00:29.218+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T05:00:29.218+0000] {logging_mixin.py:137} INFO - [2022-11-29T05:00:29.218+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T05:00:29.514+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T05:00:29.521+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T05:00:29.544+0000] {logging_mixin.py:137} INFO - [2022-11-29T05:00:29.544+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T05:00:29.563+0000] {logging_mixin.py:137} INFO - [2022-11-29T05:00:29.563+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T05:00:29.577+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.362 seconds
+[2022-11-29T05:00:59.699+0000] {processor.py:154} INFO - Started process (PID=343) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T05:00:59.700+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T05:00:59.701+0000] {logging_mixin.py:137} INFO - [2022-11-29T05:00:59.701+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T05:00:59.971+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T05:00:59.978+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T05:01:00.006+0000] {logging_mixin.py:137} INFO - [2022-11-29T05:01:00.006+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T05:01:00.026+0000] {logging_mixin.py:137} INFO - [2022-11-29T05:01:00.025+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T05:01:00.040+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.344 seconds
+[2022-11-29T05:01:30.168+0000] {processor.py:154} INFO - Started process (PID=363) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T05:01:30.169+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T05:01:30.170+0000] {logging_mixin.py:137} INFO - [2022-11-29T05:01:30.170+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T05:01:30.475+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T05:01:30.481+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T05:01:30.506+0000] {logging_mixin.py:137} INFO - [2022-11-29T05:01:30.505+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T05:01:30.524+0000] {logging_mixin.py:137} INFO - [2022-11-29T05:01:30.524+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T05:01:30.539+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.373 seconds
+[2022-11-29T05:02:00.661+0000] {processor.py:154} INFO - Started process (PID=392) to work on /opt/airflow/dags/s3_dag.py
+[2022-11-29T05:02:00.662+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/s3_dag.py for tasks to queue
+[2022-11-29T05:02:00.662+0000] {logging_mixin.py:137} INFO - [2022-11-29T05:02:00.662+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/s3_dag.py
+[2022-11-29T05:02:00.950+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py:3437 RemovedInAirflow3Warning: Param `schedule_interval` is deprecated and will be removed in a future release. Please use `schedule` instead.
+[2022-11-29T05:02:00.958+0000] {processor.py:766} INFO - DAG(s) dict_keys(['s3_dag']) retrieved from /opt/airflow/dags/s3_dag.py
+[2022-11-29T05:02:00.982+0000] {logging_mixin.py:137} INFO - [2022-11-29T05:02:00.981+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-29T05:02:01.000+0000] {logging_mixin.py:137} INFO - [2022-11-29T05:02:01.000+0000] {dag.py:3340} INFO - Setting next_dagrun for s3_dag to 2022-11-29T00:00:00+00:00, run_after=2022-11-30T00:00:00+00:00
+[2022-11-29T05:02:01.016+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/s3_dag.py took 0.357 seconds
